@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Smoke">
+       <classes>
+           <class name="encore.extra.automation.web.tests.components.FooterNavigationBarTest" />
+           <class name="encore.extra.automation.web.tests.components.HeaderNavigationBarTest" />
+           <class name="encore.extra.automation.web.tests.pages.ExtraEarningPageTest"/>
+           <class name="encore.extra.automation.web.tests.pages.ExtraSavingsPageTest"/>
+           <class name="encore.extra.automation.web.tests.pages.HomePageTest"/>
+           <class name="encore.extra.automation.web.tests.pages.LoginPageTest"/>
+           <class name="encore.extra.automation.web.tests.pages.RegisterPageTest"/>
+       </classes>
+    </test>
+</suite>

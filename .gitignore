@@ -1,0 +1,14 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+AutomationAppium/node_modules/
+AutomationAppium/app/
+
+# Mac
+.DS_Store
+ 
+# Maven
+target/
+
